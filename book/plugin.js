@@ -30,8 +30,8 @@ require
 						.html()
 						.replace
 						(
-							/(<!---)([\s\S]*?)(--->)/g
-							, '<p class="alert alert-warning">$2</p>'
+							/(<!---) ?\*\*([\s\S]*?)\*\*([\s\S]*?)(--->)/gi
+							, '<p class="alert alert-$2"><span class="fa fa-$2"></span>$3</p>'
 						)
 				);
 			}

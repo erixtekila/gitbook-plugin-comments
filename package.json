@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-comments",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gitbook plugin - Transform markdown comments to html notes",
   "main": "index.js",
   "engines": {
