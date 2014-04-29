@@ -1,6 +1,8 @@
 GitBook plugin : Transform comments to notes
 ==============
 
+### OBSOLETE : see https://github.com/erixtekila/gitbook-plugin-richquotes instead
+
 This plugin converts markdown comments to notes in the browser.
 Markdown comments have the following syntax :
 
